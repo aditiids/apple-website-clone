@@ -1,11 +1,15 @@
-import { useState } from "react";
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Highlights from './components/Highlights';
+
 const App = () => {
   return (
-    
-      <h1 className="text-3xl font-bold underline">Hello World!</h1>
-    
+    <main style={{ backgroundColor: 'black', minHeight: '100vh', color: 'white' }}>
+      <Navbar />
+      <Hero />
+      <Highlights />
+    </main>
   );
-};
+}
 
 export default App;
-
